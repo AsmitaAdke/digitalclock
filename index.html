@@ -4,6 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Digital Clock</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      font-family: 'Arial', sans-serif;
+    }
+
+    .clock {
+      background-color: rgba(0,0,0,0.6);
+      padding: 50px 80px;
+      border-radius: 20px;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      border: 2px solid #fff;
+    }
+
+    .time {
+      font-size: 4rem;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+
+    .date {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #ffd700;
+    }
+  </style>
 </head>
 <body>
   <div class="clock">
